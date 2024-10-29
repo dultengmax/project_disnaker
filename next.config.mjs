@@ -8,7 +8,15 @@ const nextConfig = {
 
             },
             {
+              hostname: 'plus.unsplash.com',
+
+            },
+            {
               hostname: 'assets.aceternity.com',
+
+            },
+            {
+              hostname: 'youtube.com',
 
             },
           ],
