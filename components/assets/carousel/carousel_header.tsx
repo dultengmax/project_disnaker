@@ -19,8 +19,8 @@ export function CarouselHeader() {
     >
       <CarouselContent>
         {Array.from({ length: 5 }).map((_, index) => (
-          <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/4 ">
-            <div className="w-full items-start">
+          <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3 xl:basis-1/4 space-x-72 ">
+            <div className="w-full items-start p-0">
               <ThreeDCardDemo/>
             </div>
           </CarouselItem>
