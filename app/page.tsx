@@ -68,8 +68,11 @@ export default function Home() {
           </video>
           <div className="w-full h-full flex items-center">
             <h1 className="absolute font-semibold  lg:text-4xl items-center text-white md:text-2xl px-12 z-50 ">
-              video terkini di palestina
+              kondisi terkini di gaza palestina
             </h1>
+            <p className="absolute font-semibold   items-center text-white  px-12 z-50 ">
+              bagi teman teman yang ingin membantu share kekerabat kalian
+            </p>
           </div>
         </main>
 
