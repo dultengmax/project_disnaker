@@ -1,9 +1,7 @@
 import { Bentocard } from "@/components/assets/bento/page";
-import { CardHoverEffectDemo } from "@/components/assets/card_hover";
 import { CarouselHeader } from "@/components/assets/carousel/carousel_header";
 import { CoverDemo } from "@/components/assets/hero/herohome";
 import { NavigationMenuDemo } from "@/components/assets/navbar";
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -11,23 +9,14 @@ export default function Home() {
   return (
     <>
       <div className="flex justify-between items-center px-3 h-16 shadow-md fixed w-full bg-white z-50">
-        <Image
-          src={"/Group1.svg"}
-          width={100}
-          height={60}
-          alt="logo"
-        />
+        <Image src={"/Group1.svg"} width={100} height={60} alt="logo" />
 
         <div className=" justify-center lg:flex lg:visible hidden items-center ">
           <NavigationMenuDemo />
         </div>
         <div className=" flex gap-2">
-            <Link href="auth/login"
-            
-            
-              >login</Link>
-          <Link href="auth/register">
-            sign up</Link >
+          <Link href="auth/login">login</Link>
+          <Link href="auth/register">sign up</Link>
         </div>
       </div>
       {/* <NavbarDemo/> */}
@@ -50,7 +39,7 @@ export default function Home() {
           <h1 className="font-bold  text-center mt-12 mb-5 lg:text-4xl md:text-xl px-16  ">
             trending article
           </h1>
-          <Bentocard/>
+          <Bentocard />
         </div>
 
         {/* <CardHoverEffectDemo /> */}
@@ -78,10 +67,9 @@ export default function Home() {
 
         {/*  */}
         <div className="w-5/6 mx-auto flex flex-col justify-center">
-        <h1 className="text-3xl font-semibold px-12">yang terbaru</h1>
-        <CarouselHeader />
+          <h1 className="text-3xl font-semibold px-12">yang terbaru</h1>
+          <CarouselHeader />
         </div>
-
       </div>
     </>
   );

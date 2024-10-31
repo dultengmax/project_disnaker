@@ -3,6 +3,7 @@
 import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
+import Link from "next/link";
 
 export function   ThreeDCardDemo() {
   return (
@@ -52,7 +53,7 @@ export function   ThreeDCardDemo() {
             as="button"
             className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
           >
-<button className="bg-slate-700 p-3 rounded-md">read More</button>         
+<Link href={'/'} className="bg-slate-700 p-3 rounded-md">read More</Link>         
    </CardItem>
 
         </div>
